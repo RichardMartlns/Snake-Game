@@ -42,7 +42,7 @@ function draw() {
 }
 
 function checkGameOver() {
-  return isOutsideBoard(getSnakeHead()) || snakeSelfCollision();
+  return isOutsideBoard(getSnakeHead());
 }
 
 window.requestAnimationFrame(main)
